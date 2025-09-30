@@ -6,7 +6,7 @@ import kotlin.test.assertEquals
 class AndroidFibiTest {
 
     @Test
-    fun `test 3rd element`() {
+    fun testThirdElement() {
         assertEquals(3, generateFibi().take(3).last())
     }
 }
